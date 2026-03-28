@@ -39,10 +39,10 @@ Die Website besteht spaeter aus mehreren Agent-Bereichen:
 ## Tool-Stack Vorschlag
 
 ### Frontend
-- Next.js oder Nuxt
+- Next.js App Router
 - TypeScript
 - Tailwind CSS
-- shadcn/ui oder vergleichbare UI-Komponenten
+- spaeter shadcn/ui oder vergleichbare UI-Komponenten
 
 ### Backend
 - Node.js
@@ -126,7 +126,16 @@ Die Website besteht spaeter aus mehreren Agent-Bereichen:
 
 ## Status
 
-Initiales Bootstrap-Repository mit README, Konzeptbasis und lokalem Playbook fuer Tools und Skill-Entwuerfe.
+Initiales Bootstrap-Repository mit README, Konzeptbasis, lokalem Playbook und erstem Next.js-Grundgeruest inklusive Landingpage.
+
+## Lokale Entwicklung
+
+```bash
+pnpm install
+pnpm dev
+pnpm lint
+pnpm build
+```
 
 ## Lokales Playbook
 
