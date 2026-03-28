@@ -99,6 +99,15 @@ Die Website besteht spaeter aus mehreren Agent-Bereichen:
 │   ├── vision.md
 │   ├── roadmap.md
 │   └── agent-modules.md
+├── playbook/
+│   ├── README.md
+│   ├── 01-schnellstart.md
+│   ├── 02-tools-uebersicht.md
+│   ├── 03-skill-system.md
+│   ├── 04-agent-rollen.md
+│   ├── 05-workflows.md
+│   ├── 06-backlog-fuer-skills.md
+│   └── custom-skills/
 ├── app/
 ├── components/
 ├── lib/
@@ -117,4 +126,13 @@ Die Website besteht spaeter aus mehreren Agent-Bereichen:
 
 ## Status
 
-Initiales Bootstrap-Repository mit README und Konzeptbasis.
+Initiales Bootstrap-Repository mit README, Konzeptbasis und lokalem Playbook fuer Tools und Skill-Entwuerfe.
+
+## Lokales Playbook
+
+Das Projekt enthaelt nun unter `playbook/` eine getrennte lokale Wissens- und Entwurfsbasis fuer:
+- Tool-Auswahl
+- Skill-System und Reifegrad
+- Agent-Rollen
+- wiederkehrende Workflows
+- lokale Skill-Entwuerfe vor der spaeteren Uebernahme in echte Skills
