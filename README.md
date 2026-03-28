@@ -145,3 +145,10 @@ Das Projekt enthaelt nun unter `playbook/` eine getrennte lokale Wissens- und En
 - Agent-Rollen
 - wiederkehrende Workflows
 - lokale Skill-Entwuerfe vor der spaeteren Uebernahme in echte Skills
+
+## Projekt-Fortsetzung
+
+Fuer eine schnelle Wiederaufnahme liegt der aktuelle Entwicklungsstand in:
+- `docs/current-status.md`
+
+Wenn wir spaeter weiterarbeiten, nutze ich zuerst den letzten Session-Stand plus diese Datei, damit du nicht alles neu erklaeren musst.
