@@ -1,0 +1,17 @@
+exit-code: 1
+severity:
+  - HIGH
+  - CRITICAL
+ignore-unfixed: true
+scan:
+  scanners:
+    - vuln
+    - secret
+    - misconfig
+skip-dirs:
+  - .git
+  - .local
+  - dist
+  - build
+  - node_modules
+  - .next
