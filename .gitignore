@@ -24,3 +24,8 @@ github_conf
 super-linter-output
 super-linter.log
 github_conf
+
+# security tooling
+super-linter-output
+super-linter.log
+github_conf
