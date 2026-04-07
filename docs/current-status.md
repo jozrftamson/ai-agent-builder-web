@@ -11,6 +11,7 @@ Das Projekt besitzt jetzt ein funktionierendes Next.js-Grundgeruest mit App Rout
 ## Aktueller Entwicklungsstand
 
 ### Bereits umgesetzt
+
 - GitHub-Repo angelegt und verbunden
 - README und Konzeptbasis erstellt
 - lokales Playbook fuer Tools und Skill-Entwuerfe angelegt
@@ -44,6 +45,7 @@ Das Projekt besitzt jetzt ein funktionierendes Next.js-Grundgeruest mit App Rout
 ## Empfohlener naechster Schritt
 
 Als naechstes die Landingpage komponentisieren:
+
 - `components/landing/header.tsx`
 - `components/landing/hero.tsx`
 - `components/landing/agent-grid.tsx`
@@ -63,6 +65,7 @@ pnpm build
 ## Fortsetzungsregel
 
 Wenn dieses Projekt spaeter wieder geoeffnet wird, zuerst:
+
 1. letzten Chat-/Session-Stand recallen
 2. diese Datei lesen: `docs/current-status.md`
 3. danach mit dem empfohlenen naechsten Schritt oder User-Wunsch weitermachen

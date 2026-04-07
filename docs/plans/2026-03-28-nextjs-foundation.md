@@ -15,6 +15,7 @@
 **Objective:** Decide which project files are required for a clean initial Next.js baseline.
 
 **Files:**
+
 - Create: `package.json`
 - Create: `tsconfig.json`
 - Create: `next.config.ts`
@@ -31,6 +32,7 @@
 **Objective:** Ensure the repo fails until the core Next.js files and page content exist.
 
 **Files:**
+
 - Modify: `tests/test_landingpage.py`
 
 **Step 1:** Assert that `app/page.tsx`, `app/layout.tsx`, and `package.json` exist.
@@ -42,6 +44,7 @@
 **Objective:** Create the actual Next.js project files and move the landing page from static HTML into React markup.
 
 **Files:**
+
 - Create/modify scaffold files
 - Port design into `app/page.tsx`
 - Port styles into `app/globals.css`
@@ -54,11 +57,13 @@
 **Objective:** Prove the scaffold is usable for further development.
 
 **Files:**
+
 - Run install
 - Run lint
 - Run build
 
 **Verification:**
+
 - `pnpm install` succeeds
 - `pnpm lint` succeeds
 - `pnpm build` succeeds

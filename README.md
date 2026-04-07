@@ -9,6 +9,7 @@ Ziel ist eine Webplattform, auf der spezialisierte AI-Agents Entwickler bei Plan
 Die Plattform soll kein klassisches Showcase sein, sondern ein produktives Agentic-Web-Interface fuer echte Entwicklungsarbeit.
 
 Moegliche Kernfaelle:
+
 - Projektideen in technische Plaene ueberfuehren
 - spezialisierte Entwicklungs-Agents orchestrieren
 - Toolchains fuer Coding, Tests und Deployments anbinden
@@ -27,6 +28,7 @@ Moegliche Kernfaelle:
 ## Erste Produktidee
 
 Die Website besteht spaeter aus mehreren Agent-Bereichen:
+
 1. Planning Agent
 2. Coding Agent
 3. Debug Agent
@@ -39,29 +41,34 @@ Die Website besteht spaeter aus mehreren Agent-Bereichen:
 ## Tool-Stack Vorschlag
 
 ### Frontend
+
 - Next.js App Router
 - TypeScript
 - Tailwind CSS
 - spaeter shadcn/ui oder vergleichbare UI-Komponenten
 
 ### Backend
+
 - Node.js
 - Express, Hono oder Next API Routes
 - Python-Services fuer Agent-Logik optional
 
 ### Agentic Layer
+
 - OpenAI Agents SDK oder vergleichbare Agent-Frameworks
 - LangChain oder LangGraph fuer Orchestrierung
 - MCP-Integrationen fuer externe Tools
 - function calling fuer strukturierte Agent-Aktionen
 
 ### Daten und Infra
+
 - PostgreSQL
 - Prisma oder Drizzle
 - Redis fuer Queue, Cache und Session-State
 - Vercel, Docker oder VPS Deployment
 
 ### Produktivitaet und Qualitaet
+
 - GitHub Actions
 - ESLint
 - Prettier
@@ -140,6 +147,7 @@ pnpm build
 ## Lokales Playbook
 
 Das Projekt enthaelt nun unter `playbook/` eine getrennte lokale Wissens- und Entwurfsbasis fuer:
+
 - Tool-Auswahl
 - Skill-System und Reifegrad
 - Agent-Rollen
@@ -149,6 +157,7 @@ Das Projekt enthaelt nun unter `playbook/` eine getrennte lokale Wissens- und En
 ## Projekt-Fortsetzung
 
 Fuer eine schnelle Wiederaufnahme liegt der aktuelle Entwicklungsstand in:
+
 - `docs/current-status.md`
 
 Wenn wir spaeter weiterarbeiten, nutze ich zuerst den letzten Session-Stand plus diese Datei, damit du nicht alles neu erklaeren musst.

@@ -7,22 +7,26 @@ In diesem Projekt sind Skills wiederverwendbare Loesungsmuster fuer Agenten, Ent
 ## Stufenmodell
 
 ### Stufe 1: Lokale Playbook-Notiz
+
 - lose Idee oder Beobachtung
 - noch nicht standardisiert
 - darf unvollstaendig sein
 
 ### Stufe 2: Lokaler Skill-Entwurf
+
 - klarerer Ablauf
 - typische Inputs und Outputs beschrieben
 - in `custom-skills/` abgelegt
 
 ### Stufe 3: Skill-ready
+
 - mehrfach angewendet
 - verifiziert
 - Stolperfallen bekannt
 - auf andere Faelle uebertragbar
 
 ### Stufe 4: Echter Skill
+
 - formal gepflegt
 - kurz, klar und reproduzierbar
 - fuer spaetere Wiederverwendung optimiert

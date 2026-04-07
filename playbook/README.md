@@ -3,6 +3,7 @@
 Dieses Playbook ist die lokale Arbeitsbasis fuer das Projekt `ai-agent-builder-web`.
 
 Ziel:
+
 - Tools, Agentenrollen und Skill-Ideen erst lokal sammeln
 - Workflows dokumentieren, bevor daraus echte Hermes-Skills werden
 - wiederverwendbare Muster fuer Produkt, Entwicklung und Agent-Orchestrierung festhalten
@@ -43,6 +44,7 @@ Dies ist bewusst ein lokales Playbook und keine finale Skill-Sammlung. Erst wenn
 ## Such- und Pflegehinweise
 
 Beispiele:
+
 - nach Tools suchen: `rg "^## " playbook/02-tools-uebersicht.md`
 - nach Workflows suchen: `rg "Workflow" playbook/`
 - nach Skill-Ideen suchen: `rg "Status:" playbook/custom-skills playbook/06-backlog-fuer-skills.md`
@@ -50,6 +52,7 @@ Beispiele:
 ## Wann etwas skill-ready ist
 
 Ein lokaler Entwurf ist skill-ready, wenn:
+
 - der Ablauf mehrfach funktioniert hat
 - Eingaben, Schritte und Outputs klar sind
 - typische Fehler dokumentiert sind

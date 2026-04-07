@@ -7,17 +7,20 @@ Dieses Dokument ordnet Tools nach Aufgabe, damit bei Produkt- und Entwicklungsar
 ## Produkt- und Konzeptarbeit
 
 ### Markdown und Docs
+
 - Zweck: Vision, Roadmap, Module, Spezifikationen
 - Typische Outputs: README, Konzeptseiten, Playbooks, Checklisten
 - Nutzen: schnell, versionskontrollierbar, gut fuer Agenten und Menschen lesbar
 
 ### GitHub
+
 - Zweck: Repo, Issues, Projektorganisation, Releases
 - Nutzen: gemeinsame Arbeitsbasis, Historie, Review-Prozesse
 
 ## Entwicklungs-Stack
 
 ### Frontend
+
 - Next.js
 - Nuxt
 - TypeScript
@@ -25,10 +28,12 @@ Dieses Dokument ordnet Tools nach Aufgabe, damit bei Produkt- und Entwicklungsar
 - UI-Komponentenbibliotheken
 
 Entscheidungsregel:
+
 - Next.js, wenn React-Oekosystem, Vercel und app-router-nahe Patterns gewollt sind.
 - Nuxt, wenn Vue/Nuxt-DX bevorzugt wird.
 
 ### Backend und APIs
+
 - Node.js
 - Express
 - Hono
@@ -38,15 +43,18 @@ Entscheidungsregel:
 ## Agentic Tools
 
 ### LLM APIs
+
 - OpenAI APIs
 - spaeter ggf. weitere Modellanbieter
 
 ### Agent-Frameworks
+
 - OpenAI Agents SDK
 - LangChain
 - LangGraph
 
 ### Tool-Integration
+
 - MCP-Server
 - Function Calling
 - Webhooks
@@ -55,11 +63,13 @@ Entscheidungsregel:
 ## Daten und Infrastruktur
 
 ### Daten
+
 - PostgreSQL
 - Prisma oder Drizzle
 - Redis fuer Cache, Queue und Kurzzeit-Zustand
 
 ### Deployment
+
 - Vercel fuer Frontend-nahe Starts
 - Docker fuer portable Deployments
 - VPS oder Cloud fuer eigene Kontrolle

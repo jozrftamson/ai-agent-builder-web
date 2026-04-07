@@ -15,6 +15,7 @@
 **Objective:** Turn the project vision into a clear landing-page section order and message hierarchy.
 
 **Files:**
+
 - Create: `docs/plans/2026-03-28-landingpage-implementation.md`
 - Read: `README.md`
 - Read: `playbook/04-agent-rollen.md`
@@ -22,6 +23,7 @@
 **Step 1: Identify required sections**
 
 Required sections:
+
 - hero
 - social proof / trust strip
 - agent roles
@@ -32,6 +34,7 @@ Required sections:
 **Step 2: Define copy direction**
 
 Messaging rules:
+
 - speak to builders, AI engineers, and teams
 - focus on outcomes, not generic AI hype
 - connect each agent to a practical result
@@ -45,6 +48,7 @@ Expected outcome: a section list that is specific enough to implement directly i
 **Objective:** Create a simple automated test that fails until the landing page contains the required sections and headline.
 
 **Files:**
+
 - Create: `tests/test_landingpage.py`
 - Target: `index.html`
 
@@ -60,11 +64,13 @@ Expected: FAIL because `index.html` does not exist yet.
 **Objective:** Create the first production landing page with strong content and polished styling.
 
 **Files:**
+
 - Create: `index.html`
 - Create: `assets/styles.css`
 
 **Step 1: Build semantic HTML**
 Include:
+
 - navigation
 - hero
 - proof strip
@@ -76,6 +82,7 @@ Include:
 
 **Step 2: Add polished CSS**
 Design goals:
+
 - dark premium aesthetic
 - vibrant accent gradients
 - readable typography
@@ -89,6 +96,7 @@ Page should be visually strong and clearly communicate the product in one scroll
 **Objective:** Confirm the landing page works and update project documentation if needed.
 
 **Files:**
+
 - Modify: `README.md` if useful later
 - Run: browser/manual validation
 
@@ -100,6 +108,7 @@ Expected: PASS
 Expected: all sections visible, responsive enough for first version, copy coherent.
 
 **Step 3: Commit**
+
 ```bash
 git add docs/plans/2026-03-28-landingpage-implementation.md tests/test_landingpage.py index.html assets/styles.css
 git commit -m "feat: add first landing page"
