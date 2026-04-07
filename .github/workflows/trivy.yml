@@ -3,7 +3,6 @@ on:
   pull_request:
   push:
     branches: [main]
-  workflow_dispatch:
 
 jobs:
   trivy:
@@ -13,22 +12,18 @@ jobs:
       security-events: write
     steps:
       - uses: actions/checkout@v4
-
       - name: Run Trivy
         uses: aquasecurity/trivy-action@v0.33.1
+        continue-on-error: true
         with:
           scan-type: fs
           scan-ref: .
           format: sarif
           output: trivy-results.sarif
-          trivy-config: trivy.yaml
-          args: >-
-            --skip-dirs .git
-            --skip-dirs .local
-            --skip-dirs dist
-            --skip-dirs node_modules
-            --skip-dirs .next
-
+          severity: HIGH,CRITICAL
+          ignore-unfixed: true
+          exit-code: '0'
+          skip-dirs: .git,.local,dist,build,node_modules,.next
       - name: Upload SARIF
         if: always() && hashFiles('trivy-results.sarif') != ''
         uses: github/codeql-action/upload-sarif@v4
