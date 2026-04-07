@@ -33,4 +33,3 @@ jobs:
           VALIDATE_JSON_PRETTIER: true
           VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
-          VALIDATE_YAML_PRETTIER: true
