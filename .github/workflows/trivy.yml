@@ -22,7 +22,7 @@ jobs:
           output: trivy-results.sarif
           severity: HIGH,CRITICAL
           ignore-unfixed: true
-          exit-code: '0'
+          exit-code: "0"
           skip-dirs: .git,.local,dist,build,node_modules,.next
       - name: Upload SARIF
         if: always() && hashFiles('trivy-results.sarif') != ''
